@@ -16,6 +16,6 @@ template:
   spec:
   containers:
     - name: hello-world
-    image: tessarujane/microservice:hello
-    ports:
-    - containerPort: 9001
+      image: tessarujane/microservice:hello
+      ports:
+      - containerPort: 9001

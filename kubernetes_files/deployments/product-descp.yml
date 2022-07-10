@@ -16,6 +16,6 @@ template:
   spec:
   containers:
     - name: product-descp
-    image: tessarujane/microservice:productdescp
-    ports:
-    - containerPort: 9002
+      image: tessarujane/microservice:productdescp
+      ports:
+      - containerPort: 9002

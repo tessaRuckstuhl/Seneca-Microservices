@@ -16,6 +16,6 @@ template:
   spec:
   containers:
     - name: server
-    image: tessarujane/microservice:server
-    ports:
-    - containerPort: 3000
+      image: tessarujane/microservice:server
+      ports:
+      - containerPort: 3000

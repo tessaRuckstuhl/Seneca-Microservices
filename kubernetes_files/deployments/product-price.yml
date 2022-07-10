@@ -16,6 +16,6 @@ template:
   spec:
   containers:
     - name: product-price
-    image: tessarujane/microservice:productprice
-    ports:
-    - containerPort: 9003
+      image: tessarujane/microservice:productprice
+      ports:
+      - containerPort: 9003
