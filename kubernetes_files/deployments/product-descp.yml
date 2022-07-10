@@ -14,7 +14,7 @@ spec:
       labels:
         app: product-descp
     spec:
-    containers:
+      containers:
       - name: product-descp
         image: tessarujane/microservice:productdescp
         ports:

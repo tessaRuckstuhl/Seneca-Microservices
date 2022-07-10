@@ -14,7 +14,7 @@ spec:
       labels:
         app: server
     spec:
-    containers:
+      containers:
       - name: server
         image: tessarujane/microservice:server
         ports:
