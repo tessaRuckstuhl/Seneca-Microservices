@@ -71,7 +71,7 @@ router.route("/exercise3/:name/:productId").get(function (req, res) {
 });
 
 router.get("/exercise4", function (req, res) {
-  res.json({ message: "group 9 application deployed using kubernetes" });
+  res.send({ message: "group 9 application deployed using kubernetes" });
 });
 /**
  * REGISTER OUR ROUTES
