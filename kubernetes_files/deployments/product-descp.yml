@@ -9,13 +9,13 @@ spec:
   selector:
     matchLabels:
       app: product-descp
-template:
-  metadata:
-    labels:
-      app: product-descp
-  spec:
-  containers:
-    - name: product-descp
-      image: tessarujane/microservice:productdescp
-      ports:
-      - containerPort: 9002
+  template:
+    metadata:
+      labels:
+        app: product-descp
+    spec:
+    containers:
+      - name: product-descp
+        image: tessarujane/microservice:productdescp
+        ports:
+        - containerPort: 9002
